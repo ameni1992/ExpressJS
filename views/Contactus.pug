@@ -1,0 +1,34 @@
+doctype html
+head
+ 
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title= title 
+    style 
+        include ../Public/style.css
+body     
+.nav.mynav
+    a.active(href='/') Home 
+    a(href='/OurServices') Our Services
+    a(href='/Contactus') Contact Us
+h1 Let's Get In Touch!
+img.image(src='https://thumbs.dreamstime.com/b/contact-us-concept-wooden-blocks-email-mail-telephone-icons-website-page-contact-us-e-mail-marketing-contact-us-192902959.jpg' alt='contact us')
+
+form.contact
+  div.box  
+    label(for='fname') First name:
+    br
+    input(type='text' name='fname' value='')
+    br
+    label Last name:
+    br
+    input(type='text' name='lname' value='')
+    br
+    label Email :
+    br
+    input(type='text' name='fname' value='')
+    br
+    br
+    br
+    input(type='submit' value='Submit')

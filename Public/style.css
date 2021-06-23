@@ -1,0 +1,56 @@
+body {
+    background-color: pink ;
+    
+    }
+   .mynav{
+     display:flex;
+     justify-content: space-around;
+     background-color:white;
+     padding-top:20px;
+     height:50px ;
+     width:100%;
+   } 
+   h1{
+     text-align:center;
+     padding-top:20px 
+   }
+   .phrase{
+     text-align:center;
+     padding:10 px;
+     font-size: 85px;
+   }
+   
+   .image{
+       margin-left: 300px;
+   width: 600px;
+   height: 300px;
+   margin-bottom: 20px;
+   }
+   .contact{
+       border:solid ;
+border-radius: 5px;
+width: 600px;
+height: 300px;
+margin-left: 300px;
+}
+.box{
+    padding:50px;
+    margin-left: 100px;
+}
+label{
+    font-size: larger;
+}
+input{
+    font-size: larger;
+}
+h2{
+  text-align:center;
+     padding-top:20px;
+    text-decoration: underline ;
+}
+img{
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  box-shadow: 10px 10px 5px grey;
+}
